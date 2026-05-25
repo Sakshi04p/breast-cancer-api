@@ -11,6 +11,7 @@ pipeline {
                 echo 'Cloning project...'
                 // Uncomment below line if using Git:
                 // git 'https://github.com/your-username/breast-cancer-api.git'
+                git branch: 'main', url: 'https://github.com/Sakshi04p/breast-cancer-api.git'
                 echo 'Project files ready.'
             }
         }
